@@ -24,7 +24,6 @@ public class countVowels {
 		System.out.println("Eneter the string:");
 		String str=cin.nextLine();
 		int n=str.length();
-		
 		int count=count(str,n);
 		System.out.println("the total number of vowels in string:"+count);
 	}
